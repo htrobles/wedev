@@ -386,6 +386,13 @@ a:hover {
 .fact.text {
   margin: 0;
   line-height: 1em;
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+  .fact.text {
+    font-size: 1.8rem;
+  }
 }
 
 #completed {
