@@ -24,3 +24,32 @@ $(document).ready(function () {
 		],
 	});
 });
+
+const toggler = document.querySelector('.navbar-toggler');
+const navbar = document.querySelector('.navbar');
+
+toggler.addEventListener(
+	'click',
+	() => {
+		if (!isNavbarDark) {
+			navbar.classList.toggle('dark');
+		}
+	},
+	false
+);
+
+let isNavbarDark = false;
+
+window.onscroll = function (event) {
+	if (this.scrollY > 100) {
+		if (!isNavbarDark) {
+			isNavbarDark = true;
+			navbar.classList.add('dark');
+		}
+	} else {
+		if (isNavbarDark) {
+			isNavbarDark = false;
+			navbar.classList.remove('dark');
+		}
+	}
+};
