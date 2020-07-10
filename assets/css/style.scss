@@ -61,6 +61,7 @@ $fnt-secondary: 'Oswald', sans-serif;
 }
 
 html {
+	scroll-behavior: smooth;
 	overflow-x: hidden;
 }
 
@@ -158,8 +159,11 @@ a {
 .navbar {
 	background-color: none;
 	color: $clr-white;
-	position: absolute;
+	position: fixed;
+	z-index: 100;
 	width: 100vw;
+
+	transition: background-color 250ms ease-out;
 }
 
 .navbar-brand {
@@ -178,11 +182,15 @@ a {
 .nav-link {
 	font-family: $fnt-secondary;
 	font-weight: 400;
-	text-align: right;
+	text-align: center;
 }
 
 .toggler {
 	color: $clr-white;
+}
+
+.navbar.dark {
+	background-color: $clr-direWolf;
 }
 
 // Hero
@@ -282,14 +290,19 @@ a {
 .section__lead {
 	margin-bottom: 3rem;
 	position: relative;
+	font-weight: 700;
 
 	@media (min-width: $md) {
-		font-size: 2.5rem;
+		font-size: 2.2rem;
 	}
 }
 
 .section__text {
 	margin-bottom: 4rem;
+
+	@media (min-width: $md) {
+		font-size: 1.5rem;
+	}
 }
 
 .section__img {
@@ -368,10 +381,20 @@ a {
 }
 
 .projects.btn {
-	opacity: 0;
 	width: 100%;
-
 	transition: opacity 250ms ease-out;
+
+	@media (min-width: $xl) {
+		opacity: 0;
+	}
+}
+
+.projects.project__title {
+	font-family: $fnt-secondary;
+
+	@media (min-width: $lg) {
+		font-size: 2.2rem;
+	}
 }
 
 #project-1 {
@@ -396,7 +419,7 @@ a {
 	justify-content: center;
 	padding: 100px 0;
 
-	@media (min-width: $md) {
+	@media (min-width: $lg) {
 		flex-direction: row;
 	}
 }
@@ -435,19 +458,18 @@ a {
 	font-size: 1.2rem;
 
 	@media (min-width: $md) {
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 }
 
 #completed {
 	margin-top: 1rem;
 
-	@media (min-width: $md) {
-		margin-top: 0;
+	@media (min-width: $lg) {
 		margin-left: 50px;
 	}
 
-	@media (min-width: $lg) {
+	@media (min-width: $xl) {
 		margin-left: 250px;
 	}
 }
@@ -457,7 +479,7 @@ a {
 	font-size: 0.9rem;
 
 	@media (min-width: $md) {
-		font-size: 0.7rem;
+		font-size: 1rem;
 	}
 }
 
