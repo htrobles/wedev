@@ -137,7 +137,7 @@ a:hover {
 
 .hero {
   height: 100vh;
-  background: linear-gradient(0deg, rgba(51, 51, 56, 0.75), rgba(51, 51, 56, 0.75)), url("/assets/images/hero-image.jpg");
+  background: linear-gradient(0deg, rgba(51, 51, 56, 0.75), rgba(51, 51, 56, 0.75)), url("./assets/images/hero-image.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -351,20 +351,20 @@ a:hover {
 }
 
 #project-1 {
-  background: linear-gradient(0deg, rgba(51, 51, 56, 0.75), rgba(51, 51, 56, 0.75)), url("/assets/images/project-1.jpg");
+  background: linear-gradient(0deg, rgba(51, 51, 56, 0.75), rgba(51, 51, 56, 0.75)), url("./assets/images/project-1.jpg");
   background-size: cover;
 }
 
 #project-2 {
-  background-image: url("/assets/images/project-2.jpg");
+  background-image: url("./assets/images/project-2.jpg");
 }
 
 #project-3 {
-  background-image: url("/assets/images/project-3.jpg");
+  background-image: url("./assets/images/project-3.jpg");
 }
 
 #project-4 {
-  background-image: url("/assets/images/project-4.jpg");
+  background-image: url("./assets/images/project-4.jpg");
 }
 
 .facts {
@@ -510,7 +510,7 @@ a:hover {
 .section.contact {
   margin-top: 150px;
   padding: 120px 0;
-  background: linear-gradient(0deg, rgba(51, 51, 56, 0.75), rgba(51, 51, 56, 0.75)), url("/assets/images/contact-image.jpg");
+  background: linear-gradient(0deg, rgba(51, 51, 56, 0.75), rgba(51, 51, 56, 0.75)), url("./assets/images/contact-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

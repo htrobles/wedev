@@ -196,7 +196,7 @@ a {
 // Hero
 .hero {
 	height: 100vh;
-	background: $ebonyClayOverlay, url('/assets/images/hero-image.jpg');
+	background: $ebonyClayOverlay, url('./assets/images/hero-image.jpg');
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -398,17 +398,17 @@ a {
 }
 
 #project-1 {
-	background: $ebonyClayOverlay, url('/assets/images/project-1.jpg');
+	background: $ebonyClayOverlay, url('./assets/images/project-1.jpg');
 	background-size: cover;
 }
 #project-2 {
-	background-image: url('/assets/images/project-2.jpg');
+	background-image: url('./assets/images/project-2.jpg');
 }
 #project-3 {
-	background-image: url('/assets/images/project-3.jpg');
+	background-image: url('./assets/images/project-3.jpg');
 }
 #project-4 {
-	background-image: url('/assets/images/project-4.jpg');
+	background-image: url('./assets/images/project-4.jpg');
 }
 
 // FACTS
@@ -547,7 +547,7 @@ a {
 .section.contact {
 	margin-top: 150px;
 	padding: 120px 0;
-	background: $ebonyClayOverlay, url('/assets/images/contact-image.jpg');
+	background: $ebonyClayOverlay, url('./assets/images/contact-image.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
