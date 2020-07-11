@@ -230,7 +230,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .section__img-container {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 }
 @media (min-width: 1200px) {
@@ -331,11 +331,13 @@ a:hover {
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.1em;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
   .projects.section__title {
     text-align: left;
+    margin-bottom: 5rem;
   }
 }
 .projects.btn {
@@ -648,31 +650,6 @@ a:hover {
     margin: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
