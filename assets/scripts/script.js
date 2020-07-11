@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	$('.clients-slider').slick({
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 300,
 		mobileFirst: true,
